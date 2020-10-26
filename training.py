@@ -35,6 +35,7 @@ commit_id = commit_id[0:7]
 training_image = get_image_uri(region_name)
 timestamp = time.strftime('%Y-%m-%d-%H-%M-%S', time.gmtime())
 
+print ("ChangYoon First Python")
 print ("Setting Algorithm Settings")
 # The algorithm supports multiple network depth (number of layers). They are 18, 34, 50, 101, 152 and 200
 # For this training, we will use 18 layers

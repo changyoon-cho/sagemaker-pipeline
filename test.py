@@ -5,6 +5,8 @@ import numpy as np
 import sys
 import time
 
+print ("ChangYoon First Python")
+
 start = time.time()
 
 configuration_file = sys.argv[1]

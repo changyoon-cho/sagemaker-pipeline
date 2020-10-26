@@ -26,6 +26,7 @@ def upload_to_s3(prefix, channel, file):
 # For the process of creating these files see the "im2rec.py" as part of mxnet
 # see: https://gluon-cv.mxnet.io/build/examples_datasets/recordio.html
 
+print ("ChangYoon First Python")
 print ("Downloadng Training Data")
 download(os.path.join(source, 'caltech-256-60-train.rec'))
 upload_to_s3(prefix, 'train', 'caltech-256-60-train.rec')

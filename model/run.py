@@ -222,5 +222,6 @@ if __name__ == "__main__":
     parser.add_argument("--ecr-dir", required=False)
     parser.add_argument("--kms-key-id", required=True)
     args = vars(parser.parse_args())
+    print("Changed Source Code by CY at 2020/10/26")
     print("args: {}".format(args))
     main(**args)
